@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "livewire-preview",
+  "account_id": "2cfa2b349ca32539da53cad70ea80ef7",
+  "compatibility_date": "2026-11-08",
+  "workers_dev": true,
+  "assets": { "directory": "./public" }
+}
