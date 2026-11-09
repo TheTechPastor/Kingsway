@@ -36,3 +36,7 @@ Verified in the browser at desktop (1440px) and phone (390px) widths: assets loa
 ## What We Believe — November 9, 2026
 
 Added `/what-we-believe/` as a second page and linked it from the main navigation on both pages. The seven doctrinal statements and the Foursquare NW District camp identification were copied from `https://livewirecamps.com/what-we-believe-1`; wording is preserved, with whitespace normalized. Retained the original destination `https://www.foursquare.org/about/beliefs/`. New introduction and visual treatment are draft presentation copy. Verified source-text parity, phone/desktop overflow, mobile navigation, and return navigation. Screenshot: `beliefs-page-desktop.png`.
+
+## Registration menu link — November 9, 2026
+
+Both pages now include “Register Now!” linking to Michael’s supplied CampNetwork URL, `https://portal.campnetwork.com/Register/Register.php?camp_id=398109`, with `target="_blank"`, `rel="noopener noreferrer"`, and an accessible new-tab label. Updated the homepage FAQ and preview note to reflect the active external link. The portal’s available sessions and transaction flow have not been verified.
