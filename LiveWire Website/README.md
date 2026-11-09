@@ -24,3 +24,15 @@ Original Hello World version: `70abc158-e92d-4a94-bfb6-17db86660206`.
 Hosting test version: `af255d8e-b8bd-48c3-b7f3-d215f17f9aeb`.
 
 Verified account access and deployment history reads, and publication of static HTML from this Mac. DNS, custom-domain, billing, database, and registration-system access have not been tested or granted by this setup. GitHub synchronization and rollback testing remain outstanding.
+
+## First redesign draft — November 9, 2026
+
+`public/` now contains the first responsive design draft, replacing the hosting-test page. It uses midnight navy, electric lime, coral, turquoise, and lavender, with a refreshed heartbeat/arrow logo concept based on Michael's supplied logo. The original reference is preserved in `public/assets/livewire-original.webp`.
+
+The mountain/camping illustration is conceptual, not a photograph or representation of the actual camp facilities. All new marketing copy is draft copy for review. Camp dates, eligibility, prices, current photography, contact information, and registration remain placeholders. No registration or contact data is collected. The preview has `noindex,nofollow` metadata, which discourages indexing but does not restrict access.
+
+Verified in the browser at desktop (1440px) and phone (390px) widths: assets load and there is no horizontal overflow. Mobile navigation, section navigation, and FAQ expansion were checked. Internal anchor destinations and asset files were also checked. Screenshot: `first-draft-desktop.png`.
+
+## What We Believe — November 9, 2026
+
+Added `/what-we-believe/` as a second page and linked it from the main navigation on both pages. The seven doctrinal statements and the Foursquare NW District camp identification were copied from `https://livewirecamps.com/what-we-believe-1`; wording is preserved, with whitespace normalized. Retained the original destination `https://www.foursquare.org/about/beliefs/`. New introduction and visual treatment are draft presentation copy. Verified source-text parity, phone/desktop overflow, mobile navigation, and return navigation. Screenshot: `beliefs-page-desktop.png`.
