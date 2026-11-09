@@ -40,3 +40,9 @@ Added `/what-we-believe/` as a second page and linked it from the main navigatio
 ## Registration menu link — November 9, 2026
 
 Both pages now include “Register Now!” linking to Michael’s supplied CampNetwork URL, `https://portal.campnetwork.com/Register/Register.php?camp_id=398109`, with `target="_blank"`, `rel="noopener noreferrer"`, and an accessible new-tab label. Updated the homepage FAQ and preview note to reflect the active external link. The portal’s available sessions and transaction flow have not been verified.
+
+## Rotating photo gallery — November 9, 2026
+
+Replaced the three photo placeholders with a looping 12-picture slideshow using the first 12 photographs from the existing livewirecamps.com gallery. Photographs are stored locally in `public/assets/slideshow/`; `sources.json` records their original URLs. Replace `camp-01.jpg` through `camp-12.jpg` to update photography without changing the slideshow. Full photographs are contained within a navy frame so portrait photos are not cropped.
+
+The gallery advances every five seconds, with previous/next and pause/play controls. Rotation pauses during hover, keyboard focus, and when the browser tab is hidden. Reduced-motion preferences start it paused. Verified JavaScript syntax, 12 downloaded JPEGs, and browser navigation and pause controls.
